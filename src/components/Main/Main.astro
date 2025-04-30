@@ -1,0 +1,20 @@
+---
+import Section from '../Section/Section.astro';
+import MapSection from '../MapSection/MapSection.astro';
+import { Image } from 'astro:assets';
+import bg_img from '../../assets/images/bg/bg.jpg';
+import './Main.css';
+---
+
+<main class="main-content">
+  <Image src={bg_img} alt="Fondo de la página" class="bg-img" />
+  <Section
+    title="Bienvenido a nuestra Cooperativa de Aceite de Oliva"
+    content="Descubre el auténtico sabor del aceite de oliva virgen extra, directamente desde el corazón de Jaén hasta tu mesa."
+  />
+  <Section
+    title="Exquisito Aceite por Maestros Locales"
+    content="Descubra la excelencia del aceite de oliva virgen extra producido por nuestra cooperativa en Jaén. Comprometidos con la calidad y la tradición, ofrecemos un producto único, elaborado con aceitunas selectas de nuestros olivares centenarios. Únase a nosotros para saborear lo mejor de Andalucía y eleve sus experiencias culinarias al siguiente nivel."
+  />
+  <MapSection />
+</main>

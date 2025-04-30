@@ -1,0 +1,20 @@
+---
+import './Header.css';
+import { Image } from 'astro:assets';
+import logo_sca from '../../assets/images/logo_sca/png/logo-no-background.png';
+
+//const accessURL = 'http://localhost:5173/';
+const accessURL = 'https://oleocontrol-front-production.up.railway.app';
+---
+
+<header class="header-container">
+  <div class="logo-container">
+    <Image src={logo_sca} alt="Logo de la Cooperativa de Aceite de Oliva" class="logo" />
+  </div>
+  <div class="title-container">
+    <h1>S.C.A. La Gota de Oro</h1>
+  </div>
+  <div class="login-button-container">
+    <a href={accessURL} class="login-button" target="_blank" rel="noopener noreferrer">Acceso Plataforma</a>
+  </div>
+</header>

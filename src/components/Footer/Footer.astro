@@ -1,0 +1,24 @@
+---
+import './Footer.css';
+import { Image } from 'astro:assets';
+import facebook from '../../assets/icons/rrss/fb_logo.svg';
+import x from '../../assets/icons/rrss/x_logo.svg';
+import instagram from '../../assets/icons/rrss/ig_logo.svg';
+---
+
+<footer class="footer">
+  <div class="social-icons">
+    <a href="#" aria-label="Facebook" class="social-icon">
+      <Image src={facebook} alt="Logo de Facebook" width={24} height={24} />
+    </a>
+    <a href="#" aria-label="X" class="social-icon">
+      <Image src={x} alt="Logo de X" width={24} height={24} />
+    </a>
+    <a href="#" aria-label="Instagram" class="social-icon">
+      <Image src={instagram} alt="Logo de Instagram" width={24} height={24} />
+    </a>
+  </div>
+  <div class="copyright">
+    <p>© 2025 S.C.A. La Gota De Oro</p>
+  </div>
+</footer>

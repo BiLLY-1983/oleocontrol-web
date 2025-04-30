@@ -1,0 +1,21 @@
+---
+const { title, content } = Astro.props;
+---
+
+<section class="content-section">
+  <h2>{title}</h2>
+  <p>{content}</p>
+</section>
+
+<style>
+  .content-section {
+    margin-bottom: 2rem;
+  }
+  h2 {
+    color: #333;
+    margin-bottom: 1rem;
+  }
+  p {
+    line-height: 1.6;
+  }
+</style>
