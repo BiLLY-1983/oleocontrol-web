@@ -1,6 +1,9 @@
 <p align="center">
   <img src="src/assets/images/logo_sca/png/logo-no-background.png" alt="Logo OleoControl" width="300"/>
-  <img src="src/assets/images/logo_oc/png/logo-no-background.png" alt="Logo OleoControl" width="300"/>
+</p>
+
+<p align="center">
+  <<img src="src/assets/images/logo_oc/png/logo-no-background.png" alt="Logo OleoControl" width="300"/>
 </p>
 
 # Web de muestra - Cooperativa "La Gota de Oro"
