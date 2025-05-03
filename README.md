@@ -69,6 +69,20 @@ Puedes visitar la landing page del frontend del sistema OleoControl desde el men
 
 - [Astro](https://astro.build/)
 - HTML
-- CSS (opcionalmente con Tailwind, si lo usaste)
+- Tailwind
+
+
+## Créditos
+
+Proyecto desarrollado como parte del ciclo formativo de Desarrollo de Aplicaciones Web (DAW).  
+---
+
+© 2025 OleoControl. Todos los derechos reservados.
+
+## Autores
+
+Este proyecto fue desarrollado por:
+
+- [@BiLLY-1983](https://www.github.com/BiLLY-1983)
 
 
